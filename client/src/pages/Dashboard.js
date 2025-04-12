@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
-import './Dashboard.css'; // Import the CSS file for dashboard styles
+import './Dashboard.css'; 
 import axios from '../services/api';
 
 const Dashboard = ({ isAuthenticated }) => {
@@ -28,7 +28,7 @@ const Dashboard = ({ isAuthenticated }) => {
   const handleLogout = () => {
     localStorage.removeItem('token');
     alert('Logged out!');
-    navigate('/');  // Redirect to the homepage after logging out
+    navigate('/');  
   };
 
   const handleAddTask = (newTask) => {

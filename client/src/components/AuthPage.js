@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Login from './Login';
 import Register from './Register';
-import './AuthPage.css'; // Optional: for styling both components together
+import './AuthPage.css'; 
 
 const AuthPage = () => {
-  const [showLogin, setShowLogin] = useState(true); // true for login, false for register
+  const [showLogin, setShowLogin] = useState(true);
 
   const toggleForm = () => {
     setShowLogin(!showLogin);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from '../services/api';
-import { motion } from 'framer-motion'; // Add framer-motion for smooth animation
+import { motion } from 'framer-motion'; 
 import './task.css';
 
 const TaskForm = ({ onTaskAdded }) => {

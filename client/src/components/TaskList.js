@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../services/api';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Trash2 } from 'lucide-react'; // Optional: Install lucide-react or use another icon set
+import { Trash2 } from 'lucide-react'; 
 import './task.css';
 
 const TaskList = () => {
