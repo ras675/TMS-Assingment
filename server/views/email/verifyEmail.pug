@@ -1,0 +1,17 @@
+
+html
+  head
+    style.
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+  body
+    p Hi #{firstName},
+    p Please verify your email by clicking the button below:
+    a(href=`${url}`, class='button') Verify Email
+    p If you didn't request this, please ignore this email.
